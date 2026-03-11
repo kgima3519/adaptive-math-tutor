@@ -1,0 +1,41 @@
+import random
+import csv
+
+def problem_generator():
+    y = random.randint(1, 10)
+    x = random.randint(1, 10)
+    z = y // x
+    rem = y % x
+    return f'{y} divided by {x}', (z, rem)
+
+score = 0
+
+open("data.csv", "w").close()
+
+for i in range(1, 6):
+    x = problem_generator()
+    question = x[0]
+    answer = x[1]
+    print(x[0])
+
+    CD = input("Enter quotient: ")
+    CD1 = int(CD)
+
+    remainder = input("Enter remainder: ")
+    rem1 = int(remainder)
+
+    student_guess = (CD1, rem1)
+
+    if student_guess == answer:
+        with open("data.csv", "a", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow([question, answer, student_guess, 'correct'])
+        print(question, answer, student_guess, 'correct')
+        score += 1
+    else:
+        with open("data.csv", "a", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow([question, answer, student_guess, 'wrong'])
+        print(question, answer, student_guess, 'wrong')
+
+print(f'The score is {score} out of 5')
