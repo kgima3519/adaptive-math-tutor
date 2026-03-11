@@ -23,3 +23,5 @@ Phase 4 - Backend API
 Phase 5 - Generative AI Explaination Layer
 
 Phase 6 - Teacher Insights and Deployment
+
+Author: Kevin Victor Gima
