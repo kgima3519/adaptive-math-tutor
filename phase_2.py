@@ -24,7 +24,6 @@ def classify_error(student_guess, answer):
 
 score = 0
 
-
 for i in range(1, 6):
     x = problem_generator()
     question, answer = x
