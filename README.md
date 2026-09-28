@@ -8,13 +8,13 @@ It is intentionally built as a real-world system: one that interacts with imperf
 
 How to Run: 
 
-Execute from the command line: python3 phase_1
+Execute from the command line: python3 phase_2.py
 
 Project Roadmap:
 
-Phase 1 - Minimum Viable Tutor (completed)
+Phase 1 - Minimum Viable Tutor **(completed)**
 
-Phase 2 - Misconception Detection
+Phase 2 - Misconception Detection **(completed)**
 
 Phase 3 - Student Understanding Model
 
