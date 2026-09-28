@@ -16,7 +16,7 @@ Phase 1 - Minimum Viable Tutor **(completed)**
 
 Phase 2 - Misconception Detection **(completed)**
 
-Phase 3 - Student Understanding Model
+Phase 3 - Student Understanding Model **(completed)**
 
 Phase 4 - Backend API
 
