@@ -8,7 +8,7 @@ It is intentionally built as a real-world system: one that interacts with imperf
 
 How to Run: 
 
-Execute from the command line: python3 phase_2.py
+Execute from the command line: python3 phase_3.py
 
 Project Roadmap:
 
